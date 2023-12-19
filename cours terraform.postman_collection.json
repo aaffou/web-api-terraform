@@ -192,14 +192,17 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/api/downloads",
-							"protocol": "http",
+							"raw": "https://7fcl6fqwb1.execute-api.eu-west-1.amazonaws.com/default/downloads",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"7fcl6fqwb1",
+								"execute-api",
+								"eu-west-1",
+								"amazonaws",
+								"com"
 							],
-							"port": "3000",
 							"path": [
-								"api",
+								"default",
 								"downloads"
 							]
 						}

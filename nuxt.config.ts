@@ -6,5 +6,8 @@ export default defineNuxtConfig({
     '@nuxtjs/eslint-module',
     // With options
     ['@nuxtjs/eslint-module', { /* module options */ }]
-  ]
+  ],
+  runtimeConfig: {
+    API_KEY: process.env.API_KEY
+  }
 })
